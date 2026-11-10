@@ -2,6 +2,11 @@
 
 最小端到端全栈 demo：Supabase（数据库）+ Render（后端）+ Cloudflare（前端），全部使用免费档。
 
+## 线上
+
+- 前端：https://stack-demo.tiancy-space.workers.dev（Cloudflare Worker，把 `frontend/` 嵌进 Worker；改前端后需要重新部署才会生效）
+- 后端：https://stack-demo-api.onrender.com（Render 免费档，在控制台直接创建，不是通过 `render.yaml`；闲置 15 分钟后休眠）
+
 ## 结构
 
 - `backend/`：Node 18+ / Express，读写 Supabase 的 `public.messages` 表

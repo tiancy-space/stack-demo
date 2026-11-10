@@ -1,5 +1,5 @@
 // 后端 API 地址（Render 部署后替换为线上地址）
-const API_BASE = 'http://localhost:3000';
+const API_BASE = 'https://stack-demo-api.onrender.com';
 
 const statusEl = document.getElementById('status');
 const listEl = document.getElementById('list');
